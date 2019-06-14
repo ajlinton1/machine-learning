@@ -42,7 +42,7 @@ function distance_index(distance, index) {
 }
 
 function euclidean_distance(item, neighbor) {
-    return Math.sqrt(Math.pow(item.x - neighbor.x, 2)) + Math.pow(item.y - neighbor.y, 2);
+    return Math.sqrt(Math.pow(item.x - neighbor.x, 2) + Math.pow(item.y - neighbor.y, 2));
 }
 
 function knn(items, index, k) {
